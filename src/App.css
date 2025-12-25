@@ -48,6 +48,9 @@
   align-items: center;
   justify-content: space-around;
 }
+.controls-element:last-child{
+  justify-content: end;
+}
 
 .justify-center{
   justify-content: center;
@@ -55,6 +58,31 @@
 
 .align-center{
   align-items: center;
+}
+
+.controls-input{
+  padding: 0.5rem 0.76rem;
+  border-radius: 0.66rem;
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(103, 103, 103, 0.25);
+  min-width: 130px;
+}
+
+.controls-button{
+  padding: 0.5rem 0.76rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+  border-radius: 0.66rem;
+  border-color: #bababa;
+  cursor: pointer;
+  user-select: none;
+}
+
+.controls-button:hover {
+  transform: scale(0.9)
 }
 
 @media screen and (max-width: 1024px){
@@ -70,10 +98,20 @@
     justify-content: center;
     width: 100%;
     border-radius: 0;
+    padding: 0.22rem 1rem;
   }
   .controls-element{
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .controls-input{
+    margin: 0.4rem 0.2rem;
+  }
+  .controls-button{
+    width: 130px;
   }
 }
 
