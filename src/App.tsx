@@ -3,12 +3,13 @@ import {Controls} from "./components/Controls/Controls";
 import './App.css';
 
 function App() {
-
     return (
-        <div className="app container">
-            <Controls />
-            <Table />
-        </div>
+        <>
+            <div className="app container">
+                <Controls />
+                <Table />
+            </div>
+        </>
     )
 }
 
