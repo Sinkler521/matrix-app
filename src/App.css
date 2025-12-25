@@ -85,6 +85,24 @@
   transform: scale(0.9)
 }
 
+.table{
+  width: 95%;
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-table-h{
+  font-size: 12rem;
+  text-align: center;
+  user-select: none;
+}
+
 @media screen and (max-width: 1024px){
  .container{
    padding: 0.4rem 0.8rem;
@@ -112,6 +130,14 @@
   }
   .controls-button{
     width: 130px;
+  }
+  .table{
+    width: 100%;
+    border: none
+  }
+  .empty-table-h{
+    font-size: 8rem;
+    text-align: center;
   }
 }
 
