@@ -84,6 +84,10 @@
 .controls-button:hover {
   transform: scale(0.9)
 }
+.controls-button:disabled:hover{
+  transform: none;
+  cursor: not-allowed;
+}
 
 .table{
   width: 95%;

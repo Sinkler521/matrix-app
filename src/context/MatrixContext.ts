@@ -4,6 +4,8 @@ import type {Matrix} from "@/types";
 export type MatrixContextValue = {
   matrix: Matrix;
   setMatrix: React.Dispatch<React.SetStateAction<Matrix>>;
+  x: number;
+  setX: React.Dispatch<React.SetStateAction<number>>;
 };
 
 export const MatrixContext = React.createContext<MatrixContextValue | null>(null);
