@@ -8,8 +8,10 @@ To run in dev mode, use
 npm run dev
 ```
 
-to make a build for production, and then run it, use
+to make a build for production, and then run it locally to check if everythink ok, use
 ```
 npm run build
-npm run start
+to check if everything ok:
+npm run preview
 ```
+

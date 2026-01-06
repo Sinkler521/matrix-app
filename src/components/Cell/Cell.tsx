@@ -21,6 +21,7 @@ type Props = {
 
 export const Cell = ({
   cell,
+    // @ts-expect-error error TS6133: 'row' is declared but its value is never read.
   row,
   sum,
   isPercentMode,
