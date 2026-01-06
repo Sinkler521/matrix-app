@@ -14,4 +14,7 @@ npm run build
 to check if everything ok:
 npm run preview
 ```
-
+then deploy to github pages
+``` 
+npm run deploy
+```
